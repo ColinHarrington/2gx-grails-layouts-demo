@@ -4,11 +4,11 @@
 
     <div id="menu">
         <ul>
-            <li>Home</li>
-            <li>Triggering Layouts</li>
-            <li>Third</li>
-            <li>Fourth</li>
-            <li>Fifth</li>
+            <li><g:link url="${resource(dir:'/')}">Home</g:link></li>
+            <li><g:link controller="triggerLayout">Triggering Layouts</g:link></li>
+            <li>Sidebar-Right</li>
+            <li>Sidebar-Left</li>
+            <li>No Sidebar</li>
         </ul>
     </div>
 </div>

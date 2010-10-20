@@ -2,7 +2,13 @@ package net.colinharrington
 
 class TriggerLayoutController {
 
-    static defaultAction = 'metaLayout'
+    static defaultAction = 'index'
+    
+    def index = {}
     
     def metaLayout = { }
+
+    def controllerAction = { }
+
+    def controller = { }
 }
