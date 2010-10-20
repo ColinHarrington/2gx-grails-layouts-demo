@@ -8,9 +8,8 @@
     <g:javascript library="application"/>
 </head>
 <body>
-    <tmpl:header/>
-    <g:pageProperty name='page.sidebar'/>
+    <g:render template="header" /> 
     <g:layoutBody/>
-    <tmpl:footer/>
+    <g:render template="footer" />
 </body>
 </html>

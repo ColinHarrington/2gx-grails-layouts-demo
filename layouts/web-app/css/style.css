@@ -1,0 +1,37 @@
+img.alignright {
+    float:right;
+    margin:5 0 5 10px;
+}
+img.alignleft {
+    float:right;
+    margin:5 10 5 0px;
+}
+
+p {
+    margin:4px 4px 12px 4px;
+}
+#menu {
+    height:20px;
+    background-color: #ddd;
+    padding:0px;
+    margin:0px;
+}
+#menu ul {
+    padding:2px 4px 2px 4px; margin:0px;
+}
+#menu li {
+    display: inline;
+    padding: 0px;
+}
+#header h1 {
+    font-size:22px;
+    color: #333;
+    float:right;
+    padding-right:12px;
+}
+#grailsLogo {
+    width:200px;
+}
+.clearboth {
+    clear:both;
+}

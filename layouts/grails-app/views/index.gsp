@@ -51,6 +51,7 @@
         </style>
     </head>
     <body>
+    <content tag="sidebar">
         <div id="nav">
             <div class="homePagePanel">
                 <div class="panelTop"></div>
@@ -80,6 +81,7 @@
                 <div class="panelBtm"></div>
             </div>
         </div>
+        </content>
         <div id="pageBody">
             <h1>Welcome to Grails</h1>
             <p>Congratulations, you have successfully started your first Grails application! At the moment
