@@ -8,8 +8,8 @@
     <g:javascript library="application"/>
 </head>
 <body>
-    <g:render template="header" /> 
+    <g:render template="/header" /> 
     <g:layoutBody/>
-    <g:render template="footer" />
+    <g:render template="/footer" />
 </body>
 </html>

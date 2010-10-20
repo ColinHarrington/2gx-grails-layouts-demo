@@ -8,9 +8,17 @@
     <g:javascript library="application"/>
 </head>
 <body>
-    <tmpl:header/>
-    <g:pageProperty name='page.sidebar'/>
-    <g:layoutBody/>
-    <tmpl:footer/>
+<g:render template="/header"/>
+<div id="nav">
+    <div class="homePagePanel">
+        <div class="panelTop"></div>
+        <div class="panelBody">
+            <g:pageProperty name='page.sidebar'/>
+        </div>
+        <div class="panelBtm"></div>
+    </div>
+</div>
+<g:layoutBody/>
+<g:render template="/footer"/>
 </body>
 </html>
