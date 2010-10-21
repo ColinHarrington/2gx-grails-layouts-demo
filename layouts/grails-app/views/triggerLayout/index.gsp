@@ -14,8 +14,8 @@
         <li><g:link controller="staticLayout" action="index">static 'layout' property on the controller</g:link></li>
         <li>controller/action conventions:</h1>
             <ul>
-                <li><g:link action="controllerAction">/layouts/<strong>controller</strong>/<strong>action.gsp</strong></g:link></li>
-                <li><g:link action="controller">/layouts/<strong>controller</strong>.gsp</g:link></li>
+                <li>/layouts/<strong>controller</strong>/<strong>action.gsp</strong></li>
+                <li>/layouts/<strong>controller</strong>.gsp</li>
             </ul>
         </li>
         <li>configured grails.sitemesh.default.layout</li>
