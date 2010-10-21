@@ -24,7 +24,7 @@
     </div>
 </div>
 <div id="content">
-<g:layoutBody/>
+    <g:layoutBody/>
 </div>
 <g:render template="/footer"/>
 </body>

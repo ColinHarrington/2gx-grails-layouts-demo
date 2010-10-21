@@ -7,7 +7,7 @@
 <body>
 <tmpl:dummyContent/>
 <content tag="sidebar">
-    <h1>Left :: View</h1>
+    <h1>Left.gsp</h1>
     <hr/><br/>
     <tmpl:defaultSidebar/>
 </content>
