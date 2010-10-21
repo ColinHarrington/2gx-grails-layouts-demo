@@ -8,7 +8,7 @@
     <g:javascript library="application"/>
     <style type="text/css" media="screen">
     #nav {
-        float: right;
+        float: left;
     }
     </style>
 </head>
@@ -23,7 +23,9 @@
         <div class="panelBtm"></div>
     </div>
 </div>
+<div id="content">
 <g:layoutBody/>
+</div>
 <g:render template="/footer"/>
 </body>
 </html>

@@ -9,15 +9,6 @@
 </head>
 <body>
 <g:render template="/header"/>
-<div id="nav">
-    <div class="homePagePanel">
-        <div class="panelTop"></div>
-        <div class="panelBody">
-            <g:pageProperty name='page.sidebar'/>
-        </div>
-        <div class="panelBtm"></div>
-    </div>
-</div>
 <div id="content">
     <g:layoutBody/>
 </div>
