@@ -8,7 +8,7 @@
     <g:javascript library="application"/>
 </head>
 <body>
-    <g:render template="/header" /> 
+    <g:render template="/header" model="${[selected: pageProperty(name:'page.navigation', default:'home')]}"/>
     <g:layoutBody/>
     <g:render template="/footer" />
 </body>

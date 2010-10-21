@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon.ico')}" type="image/x-icon"/>
     <g:layoutHead/>
     <g:javascript library="application"/>
+    <parameter name="navigation" value="home"/>
 </head>
 <body>
 <g:render template="/header"/>

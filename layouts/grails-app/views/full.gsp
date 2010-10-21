@@ -3,6 +3,7 @@
 <head>
     <title>Simple GSP page</title>
     <meta name="layout" content="noSidebar"/>
+    <parameter name="navigation" value="none"/>
 </head>
 <body>
   <tmpl:dummyContent />

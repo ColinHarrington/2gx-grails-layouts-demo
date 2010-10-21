@@ -3,6 +3,8 @@
 <head>
     <title>Simple GSP page</title>
     <meta name="layout" content="main"/>
+
+    <parameter name="navigation" value="triggering"/>
 </head>
 <body>
 <h1>meta.layout</h1>

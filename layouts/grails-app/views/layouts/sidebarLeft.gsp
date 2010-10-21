@@ -1,3 +1,4 @@
+<g:applyLayout name="global">
 <html>
 <head>
     <title><g:layoutTitle default="Grails Layouts and Sitemesh"/> :: SpringOne2gx</title>
@@ -6,6 +7,7 @@
     <link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon.ico')}" type="image/x-icon"/>
     <g:layoutHead/>
     <g:javascript library="application"/>
+    <sitemesh:parameter name='navigation' value="${pageProperty(name:'page.navigation')}"/>
     <style type="text/css" media="screen">
     #nav {
         float: left;
@@ -13,7 +15,6 @@
     </style>
 </head>
 <body>
-<g:render template="/header"/>
 <div id="nav">
     <div class="homePagePanel">
         <div class="panelTop"></div>
@@ -26,6 +27,6 @@
 <div id="content">
     <g:layoutBody/>
 </div>
-<g:render template="/footer"/>
 </body>
 </html>
+</g:applyLayout>

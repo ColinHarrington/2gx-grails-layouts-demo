@@ -1,7 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-    <title>Simple GSP page</title>
+    <title>Static Layout</title>
+    <parameter name="navigation" value="triggering"/>
 </head>
 <body>
 <img src="${resource(dir: 'images', file: 'sitemesh3-logo-pic.png')}" class='alignright' alt="Sitemesh logo"/>
